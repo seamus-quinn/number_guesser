@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+
+header {
+  background-color: #404041;
+  text-align: center;
+  height: 100px;
+}
+
+h1 {
+  display: inline-block;
+  padding: 0.5%;
+  margin-top: 13px;
+  font-size: 300%;
+}
+
+section {
+  vertical-align: top;
+  text-align: center;
+}
+
+article {
+  text-align: center;
+  width: auto;
+  margin: 0 15%;
+}
+
+button {
+  color: #FFFFFF;
+  background-color: #929497;
+  height: 30px;
+  margin: 3%;
+  width: 152px;
+  border-radius: 15px 15px;
+  font-size: 110%;
+  font-weight: 100;
+  outline: none;
+}
+
+button:disabled {
+  color: #FFFFFF;
+  background-color: #D0D2D3;
+}
+
+button:hover {
+  color: #FFFFFF;
+  background-color: #EB008B;
+}
+
+form {
+  padding: 4%;
+}
+
+input {
+    width: 340px;
+    height: 30px;  
+    color: #929497;
+    font-size: 120%;
+}
+
+input::placeholder {
+  color: #929497;
+  font-size: 120%;
+  padding: 0;
+}
+
+p {
+  font-size: 25px;
+}
+
+.hnum {
+  color: #ED458B;
+  font-weight: 700;
+}
+
+.hguess {
+  color: #E6E7E8;
+  font-weight: 300;
+}
+
+.p_middle {
+  font-size: 200px;
+  color: #ED458B;
+  text-align: center;
+}
+
+.resetButton {
+  width: 340px;
+}
+
+.divButton {
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
